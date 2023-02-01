@@ -9,6 +9,7 @@ metadata:
     app.kubernetes.io/part-of: weatherforecast-steeltoe
     apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/workload-type: web
+    custom: "true"
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
     tanzu.app.live.view.application.name: weatherforecast-steeltoe
@@ -32,12 +33,13 @@ spec:
         apps.tanzu.vmware.com/has-tests: "true"
         apps.tanzu.vmware.com/workload-type: web
         carto.run/workload-name: weatherforecast-steeltoe
+        custom: "true"
         tanzu.app.live.view: "true"
         tanzu.app.live.view.application.flavours: steeltoe
         tanzu.app.live.view.application.name: weatherforecast-steeltoe
     spec:
       containers:
-      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/weatherforecast-steeltoe-mae@sha256:817e0798a2841331d15620c047580d895bbcfcf51db51ffd5aef09c3d91b02df
+      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/weatherforecast-steeltoe-mae@sha256:c3d4caeb26f64a7d9e14d337ea29bf466f9d5e66c5e1d9f4a715ded3d10c54cb
         name: workload
         resources: {}
         securityContext:
