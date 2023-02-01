@@ -39,7 +39,7 @@ spec:
         tanzu.app.live.view.application.name: weatherforecast-steeltoe
     spec:
       containers:
-      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/weatherforecast-steeltoe-mae@sha256:c3d4caeb26f64a7d9e14d337ea29bf466f9d5e66c5e1d9f4a715ded3d10c54cb
+      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/weatherforecast-steeltoe-mae@sha256:52aa1a825da4bb1332afa0a053913242e9c34d49fcca84034b4de7bbdb1e9358
         name: workload
         resources: {}
         securityContext:
