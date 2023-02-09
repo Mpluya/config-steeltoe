@@ -37,7 +37,7 @@ spec:
         tanzu.app.live.view.application.name: iterate-sample
     spec:
       containers:
-      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/iterate-sample-mae@sha256:22017cb78d5fc9758460801e028e7afc7d13a1d7954fcfe8d1f07df5b1694e4b
+      - image: 375783000519.dkr.ecr.us-west-2.amazonaws.com/tanzu-application-platform/iterate-sample-mae@sha256:455fd04980f03668dbbead73f4190940e52ea87ac92a943ae58fd2b3e0475c61
         name: workload
         resources: {}
         securityContext:
